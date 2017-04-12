@@ -1,0 +1,17 @@
+{
+    "key": "JQDpE8ghhA3Ksz3inYSMtw",
+    "message": {
+        "text": "Example text content",
+        "subject": "example subject",
+        "from_email": "tasks@tasks.nintexncp.com",
+        "from_name": "Task System",
+        "to": [
+            {
+                "email": "christian.bongiorno@nintex.com"
+            }
+        ],
+        "headers": {
+            "Reply-To": "task1234@tasks.nintexncp.com"
+        }
+    }
+}

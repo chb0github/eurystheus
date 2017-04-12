@@ -1,0 +1,89 @@
+{
+    "method": "email",
+    "description": "Task for requesting time off",
+    "outcomes": 1,
+    "quorum": "first-responder",
+    "thesaurus": 1,
+    "expiration": {
+        "at": "2015-09-30T01:29:20.614Z",
+        "response": "yes"
+    },
+    "notifiers": [
+        {
+            "type": "webhook",
+            "endpoint": "http://requestb.in/1kou40a1",
+            "method": "POST",
+            "routing-key": "user-defined-routing-key",
+            "content-type": "application/json"
+        }
+    ],
+    "reminders": [
+        "2015-09-30T01:29:20.614Z",
+        "2015-09-30T01:29:20.614Z",
+        "2015-09-30T01:29:20.614Z"
+    ],
+    "message": "Renai Bell is requesting 3 days off from 9/10/2015 to 9/13/2015",
+    "to": [
+        {
+            "assignee": "christian.bongiorno@nintex.com",
+            "escalation": [
+                {
+                    "after": "2015-09-30T01:29:20.614Z",
+                    "method": "email",
+                    "to": "christian.bongiorno@nintex.com"
+                },
+                {
+                    "after": "2015-09-30T01:29:20.614Z",
+                    "method": "email",
+                    "to": "christian.bongiorno@nintex.com"
+                }
+            ]
+        }
+    ],
+    "from": "TimeOff@nintex.com",
+    "subject": "Time off request for Renai Bell",
+    "status": "complete",
+    "results": {
+        "final": "yes",
+        "votes": [
+            {
+                "who": "Christian.Bongiorno@Nintex.com",
+                "what": "yes",
+                "when": "2015-11-05T00:44:05.355Z",
+                "synonym": "yes",
+                "message": [
+                    "yes",
+                    "-----Original Message-----",
+                    "From: tasks@tasks.nintexncp.com [mailto:tasks@tasks.nintexncp.com] ",
+                    "Sent: Wednesday, November 4, 2015 4:44 PM",
+                    "To: Christian Bongiorno <Christian.Bongiorno@Nintex.com>",
+                    "Subject: Invalid Task response",
+                    "Your response of 'foo' was invalid",
+                    "You may reply with 'yes' or 'no'"
+                ]
+            }
+        ],
+        "rejections": [
+            {
+                "who": "Christian.Bongiorno@Nintex.com",
+                "what": "foo",
+                "when": "2015-11-05T00:43:41.717Z",
+                "synonym": "foo",
+                "message": [
+                    "foo",
+                    "-----Original Message-----",
+                    "From: tasks@tasks.nintexncp.com [mailto:tasks@tasks.nintexncp.com] ",
+                    "Sent: Wednesday, November 4, 2015 4:43 PM",
+                    "To: Christian Bongiorno <Christian.Bongiorno@Nintex.com>",
+                    "Subject: Time off request for Renai Bell",
+                    "Renai Bell is requesting 3 days off from 9/10/2015 to 9/13/2015 You may reply with 'yes' or 'no'"
+                ]
+            }
+        ]
+    },
+    "assignees": [
+        "christian.bongiorno@nintex.com"
+    ],
+    "created": "2015-11-05T00:43:08.713Z",
+    "id": 8061523389841408
+}

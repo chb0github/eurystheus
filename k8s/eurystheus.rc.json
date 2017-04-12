@@ -1,0 +1,54 @@
+{
+    "kind": "ReplicationController",
+    "apiVersion": "v1",
+    "metadata": {
+        "name": "eurystheus-rc",
+        "labels": {
+            "name": "eurystheus-rc"
+        }
+    },
+    "spec": {
+        "replicas": 1,
+        "selector": {
+            "name": "eurystheus"
+        },
+        "template": {
+            "metadata": {
+                "labels": {
+                    "name": "eurystheus"
+                }
+            },
+            "spec": {
+                "containers": [
+                    {
+                        "name": "api",
+                        "image": "ec2-54-169-239-164.ap-southeast-1.compute.amazonaws.com:5000/eurystheus",
+                        "ports": [
+                            {
+                                "containerPort": 7070
+                            }
+                        ],
+                        "env": [
+                            {
+                                "name": "SERVICE_NAME",
+                                "value": "eurystheus"
+                            },
+                            {
+                                "name": "EXPIRATION_QUEUE",
+                                "value": "ncp-cb-1.nintextest.com"
+                            },
+                            {
+                                "name": "EXPIRATION_EXCHANGE",
+                                "value": "expiration"
+                            },
+                            {
+                                "name": "NODE_ENV",
+                                "value": "production"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

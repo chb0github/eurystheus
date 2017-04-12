@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "givenName": {
+            "type": "string"
+        },
+        "familyName": {
+            "type": "string",
+        },
+        "age": {
+            "type": "integer",
+            "min": 0
+        }
+    }
+}

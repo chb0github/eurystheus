@@ -1,0 +1,304 @@
+{
+    "fields": [
+        {
+            "type": "string",
+            "vendorPath": "Id",
+            "vendorDisplayName": "Contact ID"
+        },
+        {
+            "type": "boolean",
+            "vendorPath": "IsDeleted",
+            "vendorDisplayName": "Deleted"
+        },
+        {
+            "type": "string",
+            "vendorPath": "MasterRecordId",
+            "vendorDisplayName": "Master Record ID"
+        },
+        {
+            "type": "string",
+            "vendorPath": "AccountId",
+            "vendorDisplayName": "Account ID"
+        },
+        {
+            "type": "string",
+            "vendorPath": "LastName",
+            "vendorDisplayName": "Last Name"
+        },
+        {
+            "type": "string",
+            "vendorPath": "FirstName",
+            "vendorDisplayName": "First Name"
+        },
+        {
+            "type": "string",
+            "vendorPath": "Salutation",
+            "vendorDisplayName": "Salutation"
+        },
+        {
+            "type": "string",
+            "vendorPath": "Name",
+            "vendorDisplayName": "Full Name"
+        },
+        {
+            "type": "string",
+            "vendorPath": "OtherStreet",
+            "vendorDisplayName": "Other Street"
+        },
+        {
+            "type": "string",
+            "vendorPath": "OtherCity",
+            "vendorDisplayName": "Other City"
+        },
+        {
+            "type": "string",
+            "vendorPath": "OtherState",
+            "vendorDisplayName": "Other State/Province"
+        },
+        {
+            "type": "string",
+            "vendorPath": "OtherPostalCode",
+            "vendorDisplayName": "Other Zip/Postal Code"
+        },
+        {
+            "type": "string",
+            "vendorPath": "OtherCountry",
+            "vendorDisplayName": "Other Country"
+        },
+        {
+            "type": "number",
+            "vendorPath": "OtherLatitude",
+            "vendorDisplayName": "Other Latitude"
+        },
+        {
+            "type": "number",
+            "vendorPath": "OtherLongitude",
+            "vendorDisplayName": "Other Longitude"
+        },
+        {
+            "type": "string",
+            "vendorPath": "OtherGeocodeAccuracy",
+            "vendorDisplayName": "Other Geocode Accuracy"
+        },
+        {
+            "type": "string",
+            "vendorPath": "MailingStreet",
+            "vendorDisplayName": "Mailing Street"
+        },
+        {
+            "type": "string",
+            "vendorPath": "MailingCity",
+            "vendorDisplayName": "Mailing City"
+        },
+        {
+            "type": "string",
+            "vendorPath": "MailingState",
+            "vendorDisplayName": "Mailing State/Province"
+        },
+        {
+            "type": "string",
+            "vendorPath": "MailingPostalCode",
+            "vendorDisplayName": "Mailing Zip/Postal Code"
+        },
+        {
+            "type": "string",
+            "vendorPath": "MailingCountry",
+            "vendorDisplayName": "Mailing Country"
+        },
+        {
+            "type": "number",
+            "vendorPath": "MailingLatitude",
+            "vendorDisplayName": "Mailing Latitude"
+        },
+        {
+            "type": "number",
+            "vendorPath": "MailingLongitude",
+            "vendorDisplayName": "Mailing Longitude"
+        },
+        {
+            "type": "string",
+            "vendorPath": "MailingGeocodeAccuracy",
+            "vendorDisplayName": "Mailing Geocode Accuracy"
+        },
+        {
+            "type": "string",
+            "vendorPath": "Phone",
+            "vendorDisplayName": "Business Phone"
+        },
+        {
+            "type": "string",
+            "vendorPath": "Fax",
+            "vendorDisplayName": "Business Fax"
+        },
+        {
+            "type": "string",
+            "vendorPath": "MobilePhone",
+            "vendorDisplayName": "Mobile Phone"
+        },
+        {
+            "type": "string",
+            "vendorPath": "HomePhone",
+            "vendorDisplayName": "Home Phone"
+        },
+        {
+            "type": "string",
+            "vendorPath": "OtherPhone",
+            "vendorDisplayName": "Other Phone"
+        },
+        {
+            "type": "string",
+            "vendorPath": "AssistantPhone",
+            "vendorDisplayName": "Asst. Phone"
+        },
+        {
+            "type": "string",
+            "vendorPath": "ReportsToId",
+            "vendorDisplayName": "Reports To ID"
+        },
+        {
+            "type": "string",
+            "vendorPath": "Email",
+            "vendorDisplayName": "Email"
+        },
+        {
+            "type": "string",
+            "vendorPath": "Title",
+            "vendorDisplayName": "Title"
+        },
+        {
+            "type": "string",
+            "vendorPath": "Department",
+            "vendorDisplayName": "Department"
+        },
+        {
+            "type": "string",
+            "vendorPath": "AssistantName",
+            "vendorDisplayName": "Assistant's Name"
+        },
+        {
+            "type": "string",
+            "vendorPath": "LeadSource",
+            "vendorDisplayName": "Lead Source"
+        },
+        {
+            "type": "date",
+            "vendorPath": "Birthdate",
+            "mask": "yyyy-MM-dd",
+            "vendorDisplayName": "Birthdate"
+        },
+        {
+            "type": "string",
+            "vendorPath": "Description",
+            "vendorDisplayName": "Contact Description"
+        },
+        {
+            "type": "string",
+            "vendorPath": "OwnerId",
+            "vendorDisplayName": "Owner ID"
+        },
+        {
+            "type": "date",
+            "vendorPath": "CreatedDate",
+            "mask": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+            "vendorDisplayName": "Created Date"
+        },
+        {
+            "type": "string",
+            "vendorPath": "CreatedById",
+            "vendorDisplayName": "Created By ID"
+        },
+        {
+            "type": "date",
+            "vendorPath": "LastModifiedDate",
+            "mask": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+            "vendorDisplayName": "Last Modified Date"
+        },
+        {
+            "type": "string",
+            "vendorPath": "LastModifiedById",
+            "vendorDisplayName": "Last Modified By ID"
+        },
+        {
+            "type": "date",
+            "vendorPath": "SystemModstamp",
+            "mask": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+            "vendorDisplayName": "System Modstamp"
+        },
+        {
+            "type": "date",
+            "vendorPath": "LastActivityDate",
+            "mask": "yyyy-MM-dd",
+            "vendorDisplayName": "Last Activity"
+        },
+        {
+            "type": "date",
+            "vendorPath": "LastCURequestDate",
+            "mask": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+            "vendorDisplayName": "Last Stay-in-Touch Request Date"
+        },
+        {
+            "type": "date",
+            "vendorPath": "LastCUUpdateDate",
+            "mask": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+            "vendorDisplayName": "Last Stay-in-Touch Save Date"
+        },
+        {
+            "type": "date",
+            "vendorPath": "LastViewedDate",
+            "mask": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+            "vendorDisplayName": "Last Viewed Date"
+        },
+        {
+            "type": "date",
+            "vendorPath": "LastReferencedDate",
+            "mask": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+            "vendorDisplayName": "Last Referenced Date"
+        },
+        {
+            "type": "string",
+            "vendorPath": "EmailBouncedReason",
+            "vendorDisplayName": "Email Bounced Reason"
+        },
+        {
+            "type": "date",
+            "vendorPath": "EmailBouncedDate",
+            "mask": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+            "vendorDisplayName": "Email Bounced Date"
+        },
+        {
+            "type": "boolean",
+            "vendorPath": "IsEmailBounced",
+            "vendorDisplayName": "Is Email Bounced"
+        },
+        {
+            "type": "string",
+            "vendorPath": "PhotoUrl",
+            "vendorDisplayName": "Photo URL"
+        },
+        {
+            "type": "string",
+            "vendorPath": "Jigsaw",
+            "vendorDisplayName": "Data.com Key"
+        },
+        {
+            "type": "string",
+            "vendorPath": "JigsawContactId",
+            "vendorDisplayName": "Jigsaw Contact ID"
+        },
+        {
+            "type": "string",
+            "vendorPath": "CleanStatus",
+            "vendorDisplayName": "Clean Status"
+        },
+        {
+            "type": "string",
+            "vendorPath": "Level__c",
+            "vendorDisplayName": "Level"
+        },
+        {
+            "type": "string",
+            "vendorPath": "Languages__c",
+            "vendorDisplayName": "Languages"
+        }
+    ]
+}

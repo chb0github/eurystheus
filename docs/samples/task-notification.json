@@ -1,0 +1,26 @@
+{
+    "taskId": 7837480776630272,
+    "status": "complete",
+    "routing-key": "user-defined-routing-key",
+    "results": {
+        "final": "yes",
+        "votes": [
+            {
+                "who": "Christian.Bongiorno@Nintex.com",
+                "what": "yes",
+                "when": "2015-11-05T19:28:42.224Z",
+                "synonym": "yes",
+                "message": [
+                    "yes",
+                    "-----Original Message-----",
+                    "From: tasks@tasks.nintexncp.com [mailto:tasks@tasks.nintexncp.com] ",
+                    "Sent: Thursday, November 5, 2015 11:28 AM",
+                    "To: Christian Bongiorno <Christian.Bongiorno@Nintex.com>",
+                    "Subject: Time off request for Renai Bell",
+                    "Renai Bell is requesting 3 days off from 9/10/2015 to 9/13/2015 You may reply with 'yes' or 'no'"
+                ]
+            }
+        ],
+        "rejections": []
+    }
+}

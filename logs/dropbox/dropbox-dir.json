@@ -1,0 +1,129 @@
+[‎12/‎2/‎2015 5:43 PM] Dan Norris:
+In nintex-test, you deleted the folder Secret Stuff. 10 mins ago
+In nintex-test, you renamed the folder Secret Stuff. 10 mins ago
+In nintex-test, you added the folder untitled folder. 10 mins ago
+
+
+/dropbox
+{
+    "severity": "medium",
+    "createdDate": "Thu Dec 03 01:31:32 UTC 2015",
+    "topic": "instance-347826-dropbox-events",
+    "action": "create",
+    "id": "483780",
+    "message": {
+        "elementKey": "dropbox",
+        "eventId": "2904069",
+        "accountId": 150568,
+        "companyId": 52099,
+        "instance_id": 347826,
+        "instanceId": 347826,
+        "instanceName": "nintex-test",
+        "raw": {
+            "list_folder": {
+                "accounts": [
+                    "dbid:AADjRF9Bl0XBHwaIjh6YV4HBiVygLgtD6q8"
+                ]
+            },
+            "delta": {
+                "users": [
+                    496760297
+                ]
+            }
+        },
+        "userId": 150609,
+        "events": [
+            {
+                "elementKey": "dropbox",
+                "eventType": "UPDATED",
+                "objectId": "%252Funtitled%2Bfolder",
+                "objectType": "folder"
+            }
+        ]
+    },
+    "user": "cloud-elements"
+}
+/dropbox
+{
+    "severity": "medium",
+    "createdDate": "Thu Dec 03 01:31:36 UTC 2015",
+    "topic": "instance-347826-dropbox-events",
+    "action": "create",
+    "id": "483781",
+    "message": {
+        "elementKey": "dropbox",
+        "eventId": "2904071",
+        "accountId": 150568,
+        "companyId": 52099,
+        "instance_id": 347826,
+        "instanceId": 347826,
+        "instanceName": "nintex-test",
+        "raw": {
+            "list_folder": {
+                "accounts": [
+                    "dbid:AADjRF9Bl0XBHwaIjh6YV4HBiVygLgtD6q8"
+                ]
+            },
+            "delta": {
+                "users": [
+                    496760297
+                ]
+            }
+        },
+        "userId": 150609,
+        "events": [
+            {
+                "elementKey": "dropbox",
+                "eventType": "DELETED",
+                "objectId": "%252Funtitled%2Bfolder"
+            },
+            {
+                "elementKey": "dropbox",
+                "eventType": "UPDATED",
+                "objectId": "%252Fsecret%2Bstuff",
+                "objectType": "folder"
+            }
+        ]
+    },
+    "user": "cloud-elements"
+}
+/dropbox
+{
+    "severity": "medium",
+    "createdDate": "Thu Dec 03 01:31:42 UTC 2015",
+    "topic": "instance-347826-dropbox-events",
+    "action": "create",
+    "id": "483782",
+    "message": {
+        "elementKey": "dropbox",
+        "eventId": "2904072",
+        "accountId": 150568,
+        "companyId": 52099,
+        "instance_id": 347826,
+        "instanceId": 347826,
+        "instanceName": "nintex-test",
+        "raw": {
+            "list_folder": {
+                "accounts": [
+                    "dbid:AADjRF9Bl0XBHwaIjh6YV4HBiVygLgtD6q8"
+                ]
+            },
+            "delta": {
+                "users": [
+                    496760297
+                ]
+            }
+        },
+        "userId": 150609,
+        "events": [
+            {
+                "elementKey": "dropbox",
+                "eventType": "DELETED",
+                "objectId": "%252Fsecret%2Bstuff"
+            }
+        ]
+    },
+    "user": "cloud-elements"
+}
+
+

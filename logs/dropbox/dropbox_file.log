@@ -1,0 +1,119 @@
+listening
+/dropbox
+{
+    "severity": "medium",
+    "createdDate": "Thu Dec 03 01:24:49 UTC 2015",
+    "topic": "instance-347826-dropbox-events",
+    "action": "create",
+    "id": "483745",
+    "message": {
+        "elementKey": "dropbox",
+        "eventId": "2904012",
+        "accountId": 150568,
+        "companyId": 52099,
+        "instance_id": 347826,
+        "instanceId": 347826,
+        "instanceName": "nintex-test",
+        "raw": {
+            "list_folder": {
+                "accounts": [
+                    "dbid:AADjRF9Bl0XBHwaIjh6YV4HBiVygLgtD6q8"
+                ]
+            },
+            "delta": {
+                "users": [
+                    496760297
+                ]
+            }
+        },
+        "userId": 150609,
+        "events": [
+            {
+                "date": "2015-12-03T01:24:47Z",
+                "elementKey": "dropbox",
+                "eventType": "UPDATED",
+                "objectId": "%252Fdefaultservice.js",
+                "objectType": "file"
+            }
+        ]
+    },
+    "user": "cloud-elements"
+}
+/dropbox
+{
+    "severity": "medium",
+    "createdDate": "Thu Dec 03 01:25:49 UTC 2015",
+    "topic": "instance-347826-dropbox-events",
+    "action": "create",
+    "id": "483750",
+    "message": {
+        "elementKey": "dropbox",
+        "eventId": "2904021",
+        "accountId": 150568,
+        "companyId": 52099,
+        "instance_id": 347826,
+        "instanceId": 347826,
+        "instanceName": "nintex-test",
+        "raw": {
+            "list_folder": {
+                "accounts": [
+                    "dbid:AADjRF9Bl0XBHwaIjh6YV4HBiVygLgtD6q8"
+                ]
+            },
+            "delta": {
+                "users": [
+                    496760297
+                ]
+            }
+        },
+        "userId": 150609,
+        "events": [
+            {
+                "date": "2015-12-03T01:25:47Z",
+                "elementKey": "dropbox",
+                "eventType": "UPDATED",
+                "objectId": "%252Fdefaultservice.js",
+                "objectType": "file"
+            }
+        ]
+    },
+    "user": "cloud-elements"
+}
+/dropbox
+{
+    "severity": "medium",
+    "createdDate": "Thu Dec 03 01:26:01 UTC 2015",
+    "topic": "instance-347826-dropbox-events",
+    "action": "create",
+    "id": "483752",
+    "message": {
+        "elementKey": "dropbox",
+        "eventId": "2904025",
+        "accountId": 150568,
+        "companyId": 52099,
+        "instance_id": 347826,
+        "instanceId": 347826,
+        "instanceName": "nintex-test",
+        "raw": {
+            "list_folder": {
+                "accounts": [
+                    "dbid:AADjRF9Bl0XBHwaIjh6YV4HBiVygLgtD6q8"
+                ]
+            },
+            "delta": {
+                "users": [
+                    496760297
+                ]
+            }
+        },
+        "userId": 150609,
+        "events": [
+            {
+                "elementKey": "dropbox",
+                "eventType": "DELETED",
+                "objectId": "%252Fdefaultservice.js"
+            }
+        ]
+    },
+    "user": "cloud-elements"
+}

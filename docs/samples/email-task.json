@@ -1,0 +1,63 @@
+{
+    "method": "email",
+    "description" : "Task for requesting time off",
+    "outcomes": 1,
+    "quorum": "first-responder",
+    "thesaurus": 1,
+    "expiration": {
+        "at": "2015-09-30T01:29:20.614Z",
+        "response": "yes"
+    },
+    "notifiers": [
+        {
+            "type": "webhook",
+            "endpoint": "http://requestb.in/1kou40a1",
+            "method": "POST",
+            "routing-key": "user-defined-routing-key",
+            "content-type": "application/json"
+        },
+        {
+            "type": "webhook",
+            "endpoint": "http://requestb.in/yhnsp1yh",
+            "method": "POST",
+            "routing-key": "user-defined-routing-key",
+            "content-type": "application/json"
+        }
+    ],
+    "reminders" : ["2015-09-30T01:29:20.614Z","2015-09-30T01:29:20.614Z","2015-09-30T01:29:20.614Z"],
+    "message": "Renai Bell is requesting 3 days off from 9/10/2015 to 9/13/2015",
+    "to": [
+        {
+            "assignee": "christian.bongiorno@nintex.com",
+            "escalation": [
+                {
+                    "after": "2015-09-30T01:29:20.614Z",
+                    "method": "email",
+                    "to": "christian.bongiorno@nintex.com"
+                },
+                {
+                    "after": "2015-09-30T01:29:20.614Z",
+                    "method": "email",
+                    "to": "christian.bongiorno@nintex.com"
+                }
+            ]
+        },
+        {
+            "assignee": "christian.bongiorno@gmail.com",
+            "escalation": [
+                {
+                    "after": "2015-09-30T01:29:20.614Z",
+                    "method": "email",
+                    "to": "christian.bongiorno@nintex.com"
+                },
+                {
+                    "after": "2015-09-30T01:29:20.614Z",
+                    "method": "email",
+                    "to": "christian.bongiorno@nintex.com"
+                }
+            ]
+        }
+    ],
+    "from": "TimeOff@nintex.com",
+    "subject": "Time off request for Renai Bell"
+}

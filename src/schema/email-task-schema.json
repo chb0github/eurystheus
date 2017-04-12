@@ -1,0 +1,208 @@
+{
+    "description": "The schema describing an email task payload.",
+    "type": "object",
+    "properties": {
+        "method": {
+            "description": "The method for the task system to communicate with the end user.",
+            "type": "string",
+            "enum": ["email"]
+        },
+        "name": {
+            "description": "The task name.",
+            "type": "string",
+            "maxLength": 64
+        },
+        "description": {
+            "description": "The task description.",
+            "type": "string",
+            "maxLength": 64
+        },
+        "outcomes": {
+            "description": "The outcome module to use to decide outcomes.",
+            "type": "integer",
+            "minimum": 0,
+            "exclusiveMinimum": true
+        },
+        "quorum": {
+            "description": "The id of the logic module to use for achieving a quorum (aka: vote).",
+            "type": "string"
+        },
+        "thesaurus": {
+            "description": "The thesaurus module to use to translate 'yeah, definitely' etc to 'yes'. Intended to be language available.",
+            "type": "integer",
+            "minimum": 0,
+            "exclusiveMinimum": true
+        },
+        "expiration": {
+            "description": "The expiration date, and the way to handle expiration.",
+            "type": "object",
+            "properties": {
+                "at": {
+                    "description": "The date and time to expire the task.",
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "response": {
+                    "description": "The way to response at task at expiration.",
+                    "type": "string",
+                    "maxLength": 64
+                }
+            },
+            "required": [
+                "at",
+                "response"
+            ]
+        },
+        "notifiers": {
+            "description": "A collection of ways to notify interested parties.",
+            "type": "array",
+            "items": {
+                "description": "A way to notify an interested party.",
+                "type": "object",
+                "oneOf": [
+                    {
+                        "description": "A webhook to POST back to.",
+                        "properties": {
+                            "type": {
+                                "description": "The type of notifier, in this case, a webhook to POST back to.",
+                                "type": "string",
+                                "enum": ["webhook"]
+                            },
+                            "endpoint": {
+                                "description": "The URL to POST back to.",
+                                "type": "string",
+                                "format": "strict-uri"
+                            },
+                            "method": {
+                                "description": "The method to use, potentially a webhook could be a GET/POST/PATCH/PUT.",
+                                "type": "string",
+                                "oneOf": [
+                                    {
+                                        "pattern": "[gG][eE][tT]"
+                                    },
+                                    {
+                                        "pattern": "[pP][aA][tT][cC][hH]"
+                                    },
+                                    {
+                                        "pattern": "[pP][oO][sS][tT]"
+                                    },
+                                    {
+                                        "pattern": "[pP][uU][tT]"
+                                    }
+                                ]
+                            },
+                            "routing-key": {
+                                "description": "A user defined key to help the notifiers route our response.",
+                                "type": "string",
+                                "maxLength": 64
+                            },
+                            "content-type": {
+                                "description": "The content-type the webhook accepts.",
+                                "type": "string",
+                                "oneOf": [
+                                    {
+                                        "pattern": "[aA][pP][pP][lL][iI][cC][aA][tT][iI][oO][nN]/[jJ][sS][oO][nN]"
+                                    },
+                                    {
+                                        "pattern": "[tT][eE][xX][tT]/[pP][lL][aA][iI][nN]"
+                                    }
+                                ]
+                            }
+                        },
+                        "required": [
+                            "type",
+                            "endpoint",
+                            "method",
+                            "routing-key",
+                            "content-type"
+                        ]
+                    }
+                ]
+            }
+        },
+        "reminders": {
+            "description": "A list of dates & times to send reminders to the 'to'",
+            "type": "array",
+            "items": {
+                "description": "A datetime to send a reminder to the 'to'",
+                "type": "string",
+                "format": "date-time"
+            }
+        },
+        "message": {
+            "description": "The message to send to the recipient.",
+            "type": "string"
+        },
+        "to": {
+            "description": "A list of assignees.",
+            "type": "array",
+            "items": {
+                "description": "An assignee of the task.",
+                "type": "object",
+                "properties": {
+                    "assignee": {
+                        "description": "The assignee's email address.",
+                        "type": "string",
+                        "format": "email"
+                    },
+                    "escalation": {
+                        "description": "The initial escalation path.",
+                        "type": "array",
+                        "items": {
+                            "description": "A node in the escalation path.",
+                            "type": "object",
+                            "properties": {
+                                "after": {
+                                    "description": "The date to escalate to this assignee.",
+                                    "type": "string",
+                                    "format": "date-time"
+                                },
+                                "method": {
+                                    "description": "Method to interact with the new assignee.",
+                                    "type": "string",
+                                    "pattern": "email"
+                                },
+                                "to": {
+                                    "description": "Asignee to escalate to.",
+                                    "type": "string",
+                                    "format": "email"
+                                }
+                            },
+                            "required": [
+                                "after",
+                                "method",
+                                "to"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "escalation"
+                ]
+            }
+        },
+        "from": {
+            "description": "The 'from' field in the email.",
+            "type": "string",
+            "format": "email"
+        },
+        "subject": {
+            "description": "The 'subject' of the email.",
+            "type": "string"
+        }
+    },
+    "required": [
+        "method",
+        "description",
+        "outcomes",
+        "quorum",
+        "thesaurus",
+        "expiration",
+        "notifiers",
+        "reminders",
+        "message",
+        "to",
+        "from",
+        "subject"
+    ]
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "event": "inbound",
+    "ts": 1444281706,
+    "msg": {
+      "raw_msg": "Received: from na01-by2-obe.outbound.protection.outlook.com (unknown [207.46.100.68])\n\tby ip-10-31-192-99 (Postfix) with ESMTPS id B61B74001D8\n\tfor <task123@tasks.nintexncp.com>; Thu, 8 Oct 2015 05:21:45 +0000 (UTC)\nReceived: from BY2PR0301MB1543.namprd03.prod.outlook.com (10.163.27.157) by\n BY2PR0301MB1541.namprd03.prod.outlook.com (10.163.27.155) with Microsoft SMTP\n Server (TLS) id 15.1.286.20; Thu, 8 Oct 2015 05:21:43 +0000\nReceived: from BY2PR0301MB1543.namprd03.prod.outlook.com ([10.163.27.157]) by\n BY2PR0301MB1543.namprd03.prod.outlook.com ([10.163.27.157]) with mapi id\n 15.01.0286.019; Thu, 8 Oct 2015 05:21:43 +0000\nFrom: =?utf-8?B?Q2hyaXN0aWFuwqBCb25naW9ybm8=?=\n\t<Christian.Bongiorno@Nintex.com>\nTo: \"task123@tasks.nintexncp.com\" <task123@tasks.nintexncp.com>\nSubject: RE: example subject\nThread-Topic: example subject\nThread-Index: AQHRAYfCRnUgA7XSjEqQBTisBcPLfZ5hD1RA\nDate: Thu, 8 Oct 2015 05:21:43 +0000\nMessage-ID: <BY2PR0301MB1543BD2571CC2E0E932DBF1E9B350@BY2PR0301MB1543.namprd03.prod.outlook.com>\nReferences: <30769263.20151008051112.5615faf0c5b659.61967725@mail137.wdc04.mandrillapp.com>\nIn-Reply-To: <30769263.20151008051112.5615faf0c5b659.61967725@mail137.wdc04.mandrillapp.com>\nAccept-Language: en-US\nContent-Language: en-US\nX-MS-Has-Attach:\nX-MS-TNEF-Correlator:\nauthentication-results: spf=none (sender IP is )\n smtp.mailfrom=Christian.Bongiorno@Nintex.com; \nx-originating-ip: [220.101.33.130]\nx-microsoft-exchange-diagnostics: 1;BY2PR0301MB1541;5:eqZSpo+PUEd3OGw\/EwprCC49KXxHrW\/tAPsXi3+\/AAh9Aib8FcaNhPHovY\/tqPPhJsbMJKsF\/VKoYTOBYuRLuxtqU63hIKbBM4bV5R\/q8\/Khwj17tfe1Sd576lR4p3ScKFdA9WgFqYvW3W0i2rSNzQ==;24:6mca9dXZ1gQ2UnRhxN\/0pNemWg0pn6dCgcFr5t2\/vh1yBdmf\/xJz19\/cEUIGuRc9DU7Bcj1qhsZM\/Ae+obR65FOxqALE+XJi5HggsyEZLVk=;20:u7RDXDrRMrP1mTH1aoUB1iWq3+6d03qCWnJoqDacJpOKBiEPDl9yJoVYUJbBP7sTYcx9B3o\/IGBJs8bp69VaiQ==\nx-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BY2PR0301MB1541;\nx-microsoft-antispam-prvs: <BY2PR0301MB1541A651736DDB3C5FD74C0F9B350@BY2PR0301MB1541.namprd03.prod.outlook.com>\nx-exchange-antispam-report-test: UriScan:;\nx-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(2401047)(5005006)(520078)(8121501046)(3002001);SRVR:BY2PR0301MB1541;BCL:0;PCL:0;RULEID:;SRVR:BY2PR0301MB1541;\nx-forefront-prvs: 0723A02764\nx-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(6009001)(377454003)(13464003)(189002)(199003)(5008740100001)(54356999)(50986999)(76176999)(19580395003)(19580405001)(5004730100002)(5007970100001)(40100003)(122556002)(10400500002)(74316001)(2501003)(76576001)(11100500001)(92566002)(450100001)(2950100001)(5003600100002)(2900100001)(106356001)(101416001)(85182001)(64706001)(46102003)(558084003)(77096005)(102836002)(221733001)(66066001)(81156007)(2351001)(110136002)(5002640100001)(97736004)(87936001)(33656002)(106116001)(99286002)(189998001)(107886002)(5001960100002)(105586002)(86362001)(111123002);DIR:OUT;SFP:1101;SCL:1;SRVR:BY2PR0301MB1541;H:BY2PR0301MB1543.namprd03.prod.outlook.com;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;\nreceived-spf: None (protection.outlook.com: Nintex.com does not designate\n permitted sender hosts)\nspamdiagnosticoutput: 1:23\nspamdiagnosticmetadata: NSPM\nContent-Type: text\/plain; charset=\"utf-8\"\nContent-Transfer-Encoding: base64\nMIME-Version: 1.0\nX-OriginatorOrg: nintex.com\nX-MS-Exchange-CrossTenant-originalarrivaltime: 08 Oct 2015 05:21:43.2546\n (UTC)\nX-MS-Exchange-CrossTenant-fromentityheader: Hosted\nX-MS-Exchange-CrossTenant-id: baffcc99-0a35-44c9-948b-faba2e593617\nX-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR0301MB1541\n\nQmxhaCBibGFoIGJsYWgNCg0KLS0tLS1PcmlnaW5hbCBNZXNzYWdlLS0tLS0NCkZyb206IFRhc2sg\nU3lzdGVtIFttYWlsdG86dGFza3NAbWFpbDEzNy53ZGMwNC5tYW5kcmlsbGFwcC5jb21dIE9uIEJl\naGFsZiBPZiBUYXNrIFN5c3RlbQ0KU2VudDogVGh1cnNkYXksIE9jdG9iZXIgOCwgMjAxNSA0OjEx\nIFBNDQpUbzogQ2hyaXN0aWFuwqBCb25naW9ybm8gPENocmlzdGlhbi5Cb25naW9ybm9ATmludGV4\nLmNvbT4NClN1YmplY3Q6IGV4YW1wbGUgc3ViamVjdA0KDQpFeGFtcGxlIHRleHQgY29udGVudA0K",
+      "headers": {
+        "Received": [
+          "from na01-by2-obe.outbound.protection.outlook.com (unknown [207.46.100.68]) by ip-10-31-192-99 (Postfix) with ESMTPS id B61B74001D8 for <task123@tasks.nintexncp.com>; Thu, 8 Oct 2015 05:21:45 +0000 (UTC)",
+          "from BY2PR0301MB1543.namprd03.prod.outlook.com (10.163.27.157) by BY2PR0301MB1541.namprd03.prod.outlook.com (10.163.27.155) with Microsoft SMTP Server (TLS) id 15.1.286.20; Thu, 8 Oct 2015 05:21:43 +0000",
+          "from BY2PR0301MB1543.namprd03.prod.outlook.com ([10.163.27.157]) by BY2PR0301MB1543.namprd03.prod.outlook.com ([10.163.27.157]) with mapi id 15.01.0286.019; Thu, 8 Oct 2015 05:21:43 +0000"
+        ],
+        "From": "Christian\u00a0Bongiorno<Christian.Bongiorno@Nintex.com>",
+        "To": "\"task123@tasks.nintexncp.com\" <task123@tasks.nintexncp.com>",
+        "Subject": "RE: example subject",
+        "Thread-Topic": "example subject",
+        "Thread-Index": "AQHRAYfCRnUgA7XSjEqQBTisBcPLfZ5hD1RA",
+        "Date": "Thu, 8 Oct 2015 05:21:43 +0000",
+        "Message-Id": "<BY2PR0301MB1543BD2571CC2E0E932DBF1E9B350@BY2PR0301MB1543.namprd03.prod.outlook.com>",
+        "References": "<30769263.20151008051112.5615faf0c5b659.61967725@mail137.wdc04.mandrillapp.com>",
+        "In-Reply-To": "<30769263.20151008051112.5615faf0c5b659.61967725@mail137.wdc04.mandrillapp.com>",
+        "Accept-Language": "en-US",
+        "Content-Language": "en-US",
+        "X-Ms-Has-Attach": "",
+        "X-Ms-Tnef-Correlator": "",
+        "Authentication-Results": "spf=none (sender IP is ) smtp.mailfrom=Christian.Bongiorno@Nintex.com;",
+        "X-Originating-Ip": "[220.101.33.130]",
+        "X-Microsoft-Exchange-Diagnostics": "1;BY2PR0301MB1541;5:eqZSpo+PUEd3OGw\/EwprCC49KXxHrW\/tAPsXi3+\/AAh9Aib8FcaNhPHovY\/tqPPhJsbMJKsF\/VKoYTOBYuRLuxtqU63hIKbBM4bV5R\/q8\/Khwj17tfe1Sd576lR4p3ScKFdA9WgFqYvW3W0i2rSNzQ==;24:6mca9dXZ1gQ2UnRhxN\/0pNemWg0pn6dCgcFr5t2\/vh1yBdmf\/xJz19\/cEUIGuRc9DU7Bcj1qhsZM\/Ae+obR65FOxqALE+XJi5HggsyEZLVk=;20:u7RDXDrRMrP1mTH1aoUB1iWq3+6d03qCWnJoqDacJpOKBiEPDl9yJoVYUJbBP7sTYcx9B3o\/IGBJs8bp69VaiQ==",
+        "X-Microsoft-Antispam": "UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BY2PR0301MB1541;",
+        "X-Microsoft-Antispam-Prvs": "<BY2PR0301MB1541A651736DDB3C5FD74C0F9B350@BY2PR0301MB1541.namprd03.prod.outlook.com>",
+        "X-Exchange-Antispam-Report-Test": "UriScan:;",
+        "X-Exchange-Antispam-Report-Cfa-Test": "BCL:0;PCL:0;RULEID:(601004)(2401047)(5005006)(520078)(8121501046)(3002001);SRVR:BY2PR0301MB1541;BCL:0;PCL:0;RULEID:;SRVR:BY2PR0301MB1541;",
+        "X-Forefront-Prvs": "0723A02764",
+        "X-Forefront-Antispam-Report": "SFV:NSPM;SFS:(10009020)(6009001)(377454003)(13464003)(189002)(199003)(5008740100001)(54356999)(50986999)(76176999)(19580395003)(19580405001)(5004730100002)(5007970100001)(40100003)(122556002)(10400500002)(74316001)(2501003)(76576001)(11100500001)(92566002)(450100001)(2950100001)(5003600100002)(2900100001)(106356001)(101416001)(85182001)(64706001)(46102003)(558084003)(77096005)(102836002)(221733001)(66066001)(81156007)(2351001)(110136002)(5002640100001)(97736004)(87936001)(33656002)(106116001)(99286002)(189998001)(107886002)(5001960100002)(105586002)(86362001)(111123002);DIR:OUT;SFP:1101;SCL:1;SRVR:BY2PR0301MB1541;H:BY2PR0301MB1543.namprd03.prod.outlook.com;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;",
+        "Received-Spf": "None (protection.outlook.com: Nintex.com does not designate permitted sender hosts)",
+        "Spamdiagnosticoutput": "1:23",
+        "Spamdiagnosticmetadata": "NSPM",
+        "Content-Type": "text\/plain; charset=\"utf-8\"",
+        "Content-Transfer-Encoding": "base64",
+        "Mime-Version": "1.0",
+        "X-Originatororg": "nintex.com",
+        "X-Ms-Exchange-Crosstenant-Originalarrivaltime": "08 Oct 2015 05:21:43.2546 (UTC)",
+        "X-Ms-Exchange-Crosstenant-Fromentityheader": "Hosted",
+        "X-Ms-Exchange-Crosstenant-Id": "baffcc99-0a35-44c9-948b-faba2e593617",
+        "X-Ms-Exchange-Transport-Crosstenantheadersstamped": "BY2PR0301MB1541"
+      },
+      "text": "Blah blah blah\r\n\r\n-----Original Message-----\r\nFrom: Task System [mailto:tasks@mail137.wdc04.mandrillapp.com] On Behalf Of Task System\r\nSent: Thursday, October 8, 2015 4:11 PM\r\nTo: Christian\u00a0Bongiorno <Christian.Bongiorno@Nintex.com>\r\nSubject: example subject\r\n\r\nExample text content\r\n",
+      "text_flowed": false,
+      "from_email": "Christian.Bongiorno@Nintex.com",
+      "from_name": "Christian\u00a0Bongiorno",
+      "to": [
+        [
+          "task123@tasks.nintexncp.com",
+          "task123@tasks.nintexncp.com"
+        ]
+      ],
+      "subject": "RE: example subject",
+      "spf": {
+        "result": "pass",
+        "detail": "sender SPF authorized"
+      },
+      "spam_report": {
+        "score": 1.3,
+        "matched_rules": [
+          {
+            "name": "URIBL_BLOCKED",
+            "score": 0,
+            "description": "ADMINISTRATOR NOTICE: The query to URIBL was blocked."
+          },
+          {
+            "name": null,
+            "score": 0,
+            "description": null
+          },
+          {
+            "name": "more",
+            "score": 0,
+            "description": "information."
+          },
+          {
+            "name": "nintex.com]",
+            "score": 0,
+            "description": null
+          },
+          {
+            "name": "RCVD_IN_DNSWL_NONE",
+            "score": -0,
+            "description": "RBL: Sender listed at http:\/\/www.dnswl.org\/, no"
+          },
+          {
+            "name": "listed",
+            "score": 0,
+            "description": "in list.dnswl.org]"
+          },
+          {
+            "name": "SPF_HELO_PASS",
+            "score": -0,
+            "description": "SPF: HELO matches SPF record"
+          },
+          {
+            "name": "RDNS_NONE",
+            "score": 1.3,
+            "description": "Delivered to internal network by a host with no rDNS"
+          }
+        ]
+      },
+      "dkim": {
+        "signed": false,
+        "valid": false
+      },
+      "email": "task123@tasks.nintexncp.com",
+      "tags": [],
+      "sender": null,
+      "template": null
+    }
+  }
+]

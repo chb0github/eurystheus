@@ -1,0 +1,19 @@
+{
+    "kind": "Service",
+    "apiVersion": "v1",
+    "metadata": {
+        "name": "eurystheus"
+    },
+    "spec": {
+        "selector": {
+            "name": "eurystheus"
+        },
+        "ports": [
+            {
+                "protocol": "TCP",
+                "port": 80,
+                "targetPort": 7070
+            }
+        ]
+    }
+}

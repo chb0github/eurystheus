@@ -1,0 +1,16 @@
+{
+    "tenant": ".*",
+    "email" : {
+        "host": "smtp.mandrillapp.com",
+        "ssl": false,
+        "port": 587,
+        "user": "christian.bongiorno@nintex.com",
+        "password": "JQDpE8ghhA3Ksz3inYSMtw",
+        "prefix": "task-prod",
+        "domain" : "tasks.nintexncp.com"
+    },
+    "expirationQueue" : {
+        "host" : "ncp-cb-1.nintextest.com",
+        "exchange" : "expiration"
+    }
+}
